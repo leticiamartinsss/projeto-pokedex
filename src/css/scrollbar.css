@@ -14,6 +14,13 @@
     border: 3px solid #ffffff;
   }
 
+  body.modo-escuro::-webkit-scrollbar-thumb{
+  background-color: #212121;
+}
+  body.modo-escuro::-webkit-scrollbar-track {
+  background: #f1e9e9;
+}
+
   body.modo-escuro *::-webkit-scrollbar-thumb{
   background-color: #212121;
 }
